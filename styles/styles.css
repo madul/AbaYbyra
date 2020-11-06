@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+/** HEADER **/
+#header{
+  min-height: 100px;
+}
+
+#header a{
+  text-decoration: none;
+  color: white;
+}
+
+/** IMG BODY **/
+#logo-body {
+  z-index:-20;
+  position:relative;
+}
+
+/** LOGIN **/
+
+#entrar-btn{
+  background-color: #035809;
+}
+#escola-cad{
+  background-color: #FDB553;
+}
+#aluno-cad{
+  background-color: #FD8D03;
+}
+#professor-cad{
+  background-color: #FB3937;
+}
+
+/** ALUNO **/
+
+#aluno-body{
+  position: fixed;
+  top:100px;
+  bottom:100px;
+}
+#titulo-pag{
+  height: 100px;
+}
+#card img{
+  width:85%;
+}
+#modulo1 a{
+  width: 25px;
+}
+
+#modulo1 button{
+  border-radius: 50px;
+  border: none;
+  padding:0;
+}
+.img-historia{
+  display: none;
+}
+#primeira-imagem{
+  display: block;
+}
+
+/** FOOTER **/
+
+#footer{
+  height: 100px;
+  bottom: 0;
+  position: absolute;
+}
+#footer-background{
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  max-height: 100px;
+  min-height: 100px;
+}
+.social-icon{
+  width: 30px;
+}
+
+#footer2{
+  height: 100px;
+  bottom: 0;
+  position: absolute;
+  background-color: #FDB356;
+}
+
+
+
+/** MEDIAS **/
+@media (max-width:600px){
+  #login-container{
+    width: 100% ;
+    min-height: 200px;
+  }
+  #index-body{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  #logo-body{
+    display:none;
+  }
+}
