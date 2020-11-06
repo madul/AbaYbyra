@@ -44,7 +44,7 @@
               </div>
               <div class="nav-item">
                 
-                <div class="nav-link h4" type="button" data-toggle="collapse" data-target="#exercicios-itens" aria-controls="historias-itens" aria-haspopup="true" aria-expanded="false" aria-label="modulos da história">
+                <div class="nav-link h4 disabled" type="button" data-toggle="collapse" data-target="#exercicios-itens" aria-controls="historias-itens" aria-haspopup="true" aria-expanded="false" aria-label="modulos da história">
                 Exercícios
                 </div>
                   <div id="exercicios-itens"  class="collapse">
@@ -58,10 +58,11 @@
           </nav>
         </div>
 
-        <div id="conteudo">
+        <div id="conteudo" class="col-sm-9 col-lg-10 h-100 ml-2 row align-items-center justify-items-center">
           <h2 id="modulo0">Bem vindo, aluno! Se divirta muito.</h2>
-          <div id="modulo1" class="col-sm-9 col-lg-10 h-100 ml-2 row align-items-center justify-items-center">
-            <button type='button' id="previous" class="col-1 "  onclick="outraImagem(-1)">
+
+          <div id="modulo1" class="h-100 ml-2 row align-items-center justify-items-center">
+            <button type='button' id="previous" class="col-1 btn"  onclick="outraImagem(-1)" disabled='disabled'>
               <img src="../images/previous.png" alt="cartão anterior">
             </button>
 
@@ -76,7 +77,7 @@
             </div>
 
 
-            <button type='button' id="next" class="col-1" onclick="outraImagem(1)">
+            <button type='button' id="next" class="col-1 btn" onclick="outraImagem(1)">
               <img src="../images/next.png" alt="próximo cartão">
             </button>
           </div>

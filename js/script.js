@@ -34,7 +34,7 @@ function showModulo(numero){
   Array.prototype.forEach.call(modulos, (index,modulo)=>{
     console.log("index: ",index);
     console.log("modulo: ", modulo);
-    if(modulo == numero-1){
+    if(modulo == numero){
       index.style.display = 'flex';
     }
     else{

@@ -44,9 +44,6 @@
 #card img{
   width:85%;
 }
-#modulo1 a{
-  width: 25px;
-}
 
 #modulo1 button{
   border-radius: 50px;
@@ -58,6 +55,9 @@
 }
 #primeira-imagem{
   display: block;
+}
+#modulo1, #modulo2, #modulo3{
+  display: none;
 }
 
 /** FOOTER **/
