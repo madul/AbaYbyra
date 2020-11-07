@@ -31,7 +31,7 @@
   background-color: #FB3937;
 }
 
-/** ALUNO **/
+/** ALUNO + PROFESSOR**/
 
 #aluno-body{
   position: fixed;
@@ -45,7 +45,10 @@
   width:85%;
 }
 
-#modulo1 button{
+#hist-modulo1, #hist-modulo2, #hist-modulo3{
+  display: none;
+}
+#hist-modulo1 button{
   border-radius: 50px;
   border: none;
   padding:0;
@@ -56,8 +59,43 @@
 #primeira-imagem{
   display: block;
 }
-#modulo1, #modulo2, #modulo3{
+#histModuloContent{
   display: none;
+}
+#matApModuloContent{
+  display: none;
+}
+
+.expo-material{
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  border: 1px solid darkgrey; 
+  padding:0;
+  position: relative;
+}
+
+.expo-material:hover .card-titulo{
+  height: 100%;
+  padding: 10px;
+  transition: height 0.2s;
+  align-items:center;
+  justify-content:center;
+}
+.card-titulo{
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  height: 0;
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  overflow: hidden;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: height 0.2s;
 }
 
 /** FOOTER **/

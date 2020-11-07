@@ -36,9 +36,9 @@
                 </div>
                   <div id="historias-itens"  class="collapse">
                     <div class="d-flex flex-column align-items-center">
-                    <a class="nav-item text-white" href="#historia" onclick="showModulo(1)">Módulo 1</a>
-                    <a class="nav-item text-white" href="#modulo2" onclick="showModulo(2)">Módulo 2</a>
-                    <a class="nav-item text-white" href="#modulo3" onclick="showModulo(3)">Módulo 3</a>
+                    <a class="nav-item text-white" href="#hist-modulo1" onclick="showModHistA(1)">Módulo 1</a>
+                    <a class="nav-item text-white" href="#hist-modulo2" onclick="showModHistA(2)">Módulo 2</a>
+                    <a class="nav-item text-white" href="#hist-modulo3" onclick="showModHistA(3)">Módulo 3</a>
                   </div>
                 </div>
               </div>
@@ -61,30 +61,30 @@
         <div id="conteudo" class="col-sm-9 col-lg-10 h-100 ml-2 row align-items-center justify-items-center">
           <h2 id="modulo0">Bem vindo, aluno! Se divirta muito.</h2>
 
-          <div id="modulo1" class="h-100 ml-2 row align-items-center justify-items-center">
+          <div id="hist-modulo1" class="h-100 ml-2 row align-items-center justify-items-center">
             <button type='button' id="previous" class="col-1 btn"  onclick="outraImagem(-1)" disabled='disabled'>
               <img src="../images/previous.png" alt="cartão anterior">
             </button>
 
 
             <div id="card" class="col-10 my-lg-3 d-flex align-items-center justify-content-center ">
-              <img id="primeira-imagem" class="img-historia border" src="../images/mod1-hist-card1.png" alt="cartao 1 historia modulo 1">
-              <img class="img-historia border" src="../images/mod1-hist-card2.png" alt="cartao 2 historia modulo 1">
-              <img class="img-historia border" src="../images/mod1-hist-card3.png" alt="cartao 3 historia modulo 1">
-              <img class="img-historia border" src="../images/mod1-hist-card4.png" alt="cartao 4 historia modulo 1">
-              <img class="img-historia border" src="../images/mod1-hist-card5.png" alt="cartao 5 historia modulo 1">
+                <img id="primeira-imagem" class="img-historia border" src="../images/mod1-hist-card1.png" alt="cartao 1 historia modulo 1">
+                <img class="img-historia border" src="../images/mod1-hist-card2.png" alt="cartao 2 historia modulo 1">
+                <img class="img-historia border" src="../images/mod1-hist-card3.png" alt="cartao 3 historia modulo 1">
+                <img class="img-historia border" src="../images/mod1-hist-card4.png" alt="cartao 4 historia modulo 1">
+                <img class="img-historia border" src="../images/mod1-hist-card5.png" alt="cartao 5 historia modulo 1">
 
-            </div>
+              </div>
 
 
             <button type='button' id="next" class="col-1 btn" onclick="outraImagem(1)">
               <img src="../images/next.png" alt="próximo cartão">
             </button>
           </div>
-          <div id="modulo2" class="col-sm-9 col-lg-10 h-100 ml-2 row align-items-center justify-items-center">
+          <div id="hist-modulo2" class="col-sm-9 col-lg-10 h-100 ml-2 row align-items-center justify-items-center">
             <h2>Módulo 2 disponível em breve</h2>
           </div>
-          <div id="modulo3" class="col-sm-9 col-lg-10 h-100 ml-2 row align-items-center justify-items-center">
+          <div id="hist-modulo3" class="col-sm-9 col-lg-10 h-100 ml-2 row align-items-center justify-items-center">
             <h2>Módulo 3 disponível em breve</h2>
           </div>
         </div>
