@@ -1,0 +1,44 @@
+create database AbaYbyra;
+use AbaYbyra;
+
+CREATE TABLE `usuario` (
+  `id_aluno` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(100) NOT NULL NULL,
+  `data_nascimento` VARCHAR(10) NOT NULL NULL UNIQUE,
+  `email` varchar(150) NOT NULL NULL,
+  `senha` varchar(50) NOT NULL NULL,
+  `escola` varchar(100) DEFAULT NULL,
+  `codigo` varchar(150) DEFAULT NULL,
+  primary key(id_aluno)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+CREATE TABLE `professor` (
+  `id_professor` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(150) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `senha` varchar(50) NOT NULL,
+  `escola` varchar(100) DEFAULT NULL,
+  `codigo_aluno` varchar(50) DEFAULT NULL,
+primary key(id_professor)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+CREATE TABLE `escola` (
+  `id_escola` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(100) not  NULL,
+  `email` varchar(150) not NULL UNIQUE,
+  `senha` varchar(50) not NULL,
+  `nome_responsavel` varchar(300) DEFAULT NULL,
+  `endereco` varchar(150) DEFAULT NULL,
+  `codigo_aluno` varchar(100) NULL,
+  `codigo_professor` varchar(100) NULL,
+   primary key(id_escola),   FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
+   FOREIGN KEY(codigo_aluno) references usuario(codigo);
+   FOREIGN KEY(codigo_professor) references usuario(codigo);
+	
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+SELECT * FROM ESCOLA;
+
