@@ -1,5 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
+/*CSS JOAO CLAUDIO*/
+.borda{
+  color: white;
+  border-radius: 20px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+.borda2{
+  color: white;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+}
+.borda2 a:hover {
+  color: yellow;
+}
+.min{
+ min-width: 300px;
+}
+/** CSS DRUMOND INICIO **/
+
+.content {
+    display: flex;
+    justify-content: left;
+}
+
+.contato {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 15px;
+    margin-top: -100px
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    border: 2px solid #228B22;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.mapas {
+    padding-left: 300px;
+    margin-top: -50px
+}
+
+.flex{
+    display:flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+
+
+
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 70px;
+
+
+}
+.texto{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  font-family: Sans-serif;
+  padding: 70px;
+  font-weight:;
+  font-size: 15pt;
+
+
+
+}
+.texto h2{
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/** CSS DRUMOND fim **/
+
+
+
 /** HEADER **/
 #header{
   min-height: 100px;
@@ -31,7 +128,7 @@
   background-color: #FB3937;
 }
 
-/** ALUNO + PROFESSOR**/
+/** ALUNO **/
 
 #aluno-body{
   position: fixed;
@@ -45,10 +142,7 @@
   width:85%;
 }
 
-#hist-modulo1, #hist-modulo2, #hist-modulo3{
-  display: none;
-}
-#hist-modulo1 button{
+#modulo1 button{
   border-radius: 50px;
   border: none;
   padding:0;
@@ -59,43 +153,8 @@
 #primeira-imagem{
   display: block;
 }
-#histModuloContent{
+#modulo1, #modulo2, #modulo3{
   display: none;
-}
-#matApModuloContent{
-  display: none;
-}
-
-.expo-material{
-  width: 200px;
-  height: 200px;
-  background-color: gray;
-  border: 1px solid darkgrey; 
-  padding:0;
-  position: relative;
-}
-
-.expo-material:hover .card-titulo{
-  height: 100%;
-  padding: 10px;
-  transition: height 0.2s;
-  align-items:center;
-  justify-content:center;
-}
-.card-titulo{
-  background-color: rgba(0,0,0,0.7);
-  color: white;
-  height: 0;
-  width: 100%;
-  position: absolute;
-  bottom:0;
-  overflow: hidden;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  transition: height 0.2s;
 }
 
 /** FOOTER **/
@@ -124,6 +183,11 @@
   background-color: #FDB356;
 }
 
+.scrollable{
+  height: 300px;
+  overflow-y: auto;
+
+}
 
 
 /** MEDIAS **/
@@ -132,13 +196,31 @@
     width: 100% ;
     min-height: 200px;
   }
+
+
   #index-body{
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
   }
+
   #logo-body{
     display:none;
   }
+
+}
+
+@media (width:300px){
+  #menu_late{
+  display:block;
+  visibility: visible;
+  }
+}
+
+@media (min-width:200px){
+#menu_late{
+  visibility: visible;
+}
+
 }
