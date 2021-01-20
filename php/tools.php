@@ -25,7 +25,7 @@ function validar_login()
 function capturar_id () //esta função captura o id da escola logada;
 {
   $email = $_SESSION['email']; //A VARIAVEL RECEBE O EMAIL QUE FOI PASSADO PELO LOGIN;
-  $connect = mysqli_connect("localhost", "root", "vertrigo", "abaybyra"); //variavel de conexão no banco;
+  $connect = mysqli_connect("localhost", "root", "123", "abaybyra2"); //variavel de conexão no banco;
   $sql1 = "SELECT id_escola as id from escola where email ='{$email}'";
   $result = $connect->query($sql1);
   $row = $result->fetch_all();
@@ -36,7 +36,7 @@ function capturar_id () //esta função captura o id da escola logada;
 function dados_user():array
 //esta função é responsável por coletar dados do aluno ou escola;
 {
-  $connect = mysqli_connect("localhost", "root", "vertrigo", "abaybyra"); //variavel de conexão no banco;
+  $connect = mysqli_connect("localhost", "root", "123", "abaybyra2"); //variavel de conexão no banco;
   $email = $_SESSION['email']; //A VARIAVEL RECEBE O EMAIL QUE FOI PASSADO PELO LOGIN;
   $senha =   $_SESSION['password']; //A VARIAVEL A SENHA QUE FOI PASSADA PELO LOGIN;
 
@@ -62,8 +62,7 @@ function dados_user():array
 function exibir_professores():array
 //esta função é responsável por coletar dados do aluno ou escola;
 {
-
-  $connect = mysqli_connect("localhost", "root", "vertrigo", "abaybyra"); //variavel de conexão no banco;
+  $connect = mysqli_connect("localhost", "root", "123", "abaybyra2"); //variavel de conexão no banco;
   $email = $_SESSION['email']; //A VARIAVEL RECEBE O EMAIL QUE FOI PASSADO PELO LOGIN;
   $senha =   $_SESSION['password']; //A VARIAVEL A SENHA QUE FOI PASSADA PELO LOGIN;
   $id = capturar_id();  //esta variavel recebe o retorno de uma função que captura o id da escola logada;
