@@ -1,11 +1,11 @@
 <main>
      <div class="container-fluid mt-5">
      <div id="index-body"  class="container-fluid row">
-       <div id="logo-body" class="col-7 container">
-        <img src="./images/global/logo-circle.svg" alt="Abá Ybyrá">
+       <div id="logo-body" class="col-sm-8 container">
+         <img src="./images/global/logo-branco.jpg" alt="Abá Ybyrá">
        </div>
 
-       <div id="login-container" class= "  col-4 border my-2 bg-white">
+       <div id="login-container min bg-sucess" class= "col-4 border my-2 bg-white">
 
          <div id='login' class="p-2 w-100 float-right d-lg-flex flex-column">
 

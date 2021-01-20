@@ -35,11 +35,8 @@
 
 
             </a>
-            <?php else: ?>
-              <a href="../../index.php" class="header-icon nav-item nav-link">INÍCIO</a>
-
             <?php endif; ?>
-              
+              <a href="../../index.php" class="header-icon nav-item nav-link">INÍCIO</a>
               <a href="../pages/sobre.php" class="header-icon nav-item nav-link">SOBRE</a>
               <a href="#" class="header-icon nav-item nav-link">BLOG</a>
               <a href="#" class="header-icon nav-item nav-link">CONTATO</a>

@@ -3,19 +3,19 @@
     <div id="footer-content" class="w-50 pt-3 container-fluid">
       <div class="social-container container w-100 d-flex justify-content-between">
         <a href="">
-            <img src="../../images/global/footer/icon_facebook.svg"  class="social-icon" alt="facebook">
+            <img src="../../images/global/footer/facebook.png"  class="social-icon" alt="facebook">
         </a>
         <a href="">
-            <img src="../../images/global/footer/icon_instagram.svg"  class="social-icon" alt="instagram">
+            <img src="../../images/global/footer/instagram.png"  class="social-icon" alt="instagram">
         </a>
         <a href="">
-            <img src="../../images/global/footer/icon_youtube.svg"  class="social-icon" alt="youtube">
+            <img src="../../images/global/footer/youtube.png"  class="social-icon" alt="youtube">
         </a>
         <a href="">
-            <img src="../../images/global/footer/icon_whatsapp.svg"  class="social-icon" alt="whatsapp">
+            <img src="../../images/global/footer/whatsapp.png"  class="social-icon" alt="whatsapp">
         </a>
         <a href="">
-            <img src="../../images/global/footer/icon_twitter.svg"  class="social-icon" alt="twitter">
+            <img src="../../images/global/footer/twitter.png"  class="social-icon" alt="twitter">
         </a>
       </div>
       <div class="text-container w-100 text-center pt-1">
