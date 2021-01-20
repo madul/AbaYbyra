@@ -186,7 +186,6 @@ textarea {
 .scrollable{
   height: 300px;
   overflow-y: auto;
-
 }
 #lateral-aluno{
   background-image: url('../images/global/bg_verde_escuro-vertical.svg');
@@ -211,14 +210,6 @@ textarea {
   #logo-body{
     display:none;
   }
-
-  /* #lateral-aluno{
-    width:100%;
-    top:0;
-    height: auto !important;
-
-  } */
-
 }
 
 @media (width:300px){

@@ -48,7 +48,7 @@ if (!isset($_SESSION['nome'])) {
           </div>
         </div>
       </nav> -->
-    </div>
+  </div>
 
     <div id="conteudo" class="col-sm-9 col-lg-10 h-100 ml-2 row align-items-center justify-items-center">
       <h2 id="modulo0">Bem vindo(a) <?php echo $_SESSION['nome'];  ?>  Se divirta muito.</h2>
