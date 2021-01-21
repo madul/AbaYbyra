@@ -62,7 +62,6 @@ function dados_user():array
 function exibir_professores():array
 //esta função é responsável por coletar dados do aluno ou escola;
 {
-
   $connect = mysqli_connect("localhost", "root", "vertrigo", "abaybyra"); //variavel de conexão no banco;
   $email = $_SESSION['email']; //A VARIAVEL RECEBE O EMAIL QUE FOI PASSADO PELO LOGIN;
   $senha =   $_SESSION['password']; //A VARIAVEL A SENHA QUE FOI PASSADA PELO LOGIN;

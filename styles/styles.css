@@ -81,7 +81,6 @@ textarea {
   letter-spacing: 3px;
   font-family: Sans-serif;
   padding: 70px;
-  font-weight:;
   font-size: 15pt;
 
 
@@ -100,6 +99,8 @@ textarea {
 /** HEADER **/
 #header{
   min-height: 100px;
+  background-image: url('../images/global/bg_verde_escuro.svg');
+  z-index: 10;
 }
 
 #header a{
@@ -111,6 +112,9 @@ textarea {
 #logo-body {
   z-index:-20;
   position:relative;
+}
+#logo-body img{
+  width: 100%;
 }
 
 /** LOGIN **/
@@ -163,6 +167,7 @@ textarea {
   height: 100px;
   bottom: 0;
   position: absolute;
+  background-image: url('../images/global/bg_verde_escuro.svg');
 }
 #footer-background{
   width: 100%;
@@ -208,9 +213,16 @@ textarea {
   #logo-body{
     display:none;
   }
+  #lateral-aluno{
+    width:100%;
+    height: auto !important;
 
+  }
 }
 
+#lateral-aluno{
+  background-image: url('../images/global/bg_verde_escuro-vertical.svg');
+}
 @media (width:300px){
   #menu_late{
   display:block;
