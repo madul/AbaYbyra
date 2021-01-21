@@ -42,7 +42,7 @@
               
               <a href="../pages/sobre.php" class="header-icon nav-item nav-link">SOBRE</a>
               <a href="#" class="header-icon nav-item nav-link">BLOG</a>
-              <a href="#" class="header-icon nav-item nav-link">CONTATO</a>
+              <a href="../pages/contato.php" class="header-icon nav-item nav-link">CONTATO</a>
 
 
           </div>

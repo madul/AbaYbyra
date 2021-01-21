@@ -2,8 +2,8 @@
 
     $servidor = "localhost";
     $usuario  ="root";
-    $senha    = "vertrigo";
-    $banco    = "abaybyra";
+    $senha    = "123";
+    $banco    = "abaybyra2";
 
     $connect = mysqli_connect($servidor, $usuario, $senha, $banco);
 
