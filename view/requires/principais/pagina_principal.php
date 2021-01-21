@@ -5,7 +5,7 @@
         <img src="./images/global/logo-circle.svg" alt="Abá Ybyrá">
        </div>
 
-       <div id="login-container" class= " col-sm-12 col-md-4 border my-2 bg-white">
+       <div id="login-container" class= "col-sm-12 col-md-4 border my-2 bg-white">
 
          <div id='login' class="p-2 w-100 float-right d-lg-flex flex-column">
 
